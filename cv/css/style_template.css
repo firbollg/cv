@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: #E9EBF7;
+    color: #413FA9;
+}
+
+/* Nav Styles */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #27187E;
+    border: 3px solid #FF8600;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-color: #27187E;
+    display: flex;
+    justify-content: space-between;
+    color: #E9EBF7;
+}
+
+
+nav p, nav a {
+  color: #E9EBF7;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #aeb8fe;
+}
+
+/* Footer Styles */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #FF8600;
+    border-left-style: none;
+    border-right-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #27187E;
+    
+}
+
+footer a {
+  color: #E9EBF7;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #aeb8fe;
+}
+
+/* Splash Section */
+.splash {
+    border-top: 3px solid #FF8600;
+}
+
+.splash h1 {
+  font-family: "Funnel Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #D15A00
+}
+
+.splash img {
+    /*replace with an actual image for the border??*/
+    border: 3px solid #FF8600;
+    padding: 0px;
+}
+
+.splash p {
+   /* color: #413FA9;*/
+    text-align: start;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: 0px;
+    background: #333;
+    background-image: linear-gradient(to right, #E9EBF7, #FF8600, #E9EBF7);
+}
+
+/* Sections */
+section {
+  margin: 0px;
+  font-family: "Funnel Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Section Headings */
+section h2 {
+  color: #D15A00;
+}
+
+/* Paragraph Styles */
+section p {
+  text-align: start;
+  white-space: pre-wrap;
+}
+
+/* link styles */
+section a {
+  color: #5EBECC;
+  text-decoration: none;
+}
+section a:hover {
+  color: #367787;
+}
+
+/* List Styles */
+ul {
+  list-style-type: square;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+  display: grid;
+  padding: 2px 16px; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  background-color: #aeb8fe;
+  margin: 10%;
+  gap: 10px;
+  border: 5px solid black;
+  box-shadow: 5px 10px;
+  color: #27187E;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  box-shadow: 5px 10px;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+  display: grid;
+  grid-template-columns: 1;
+  width: 500px;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: auto;
+  gap: 10px;
+}
+
+form input, form textarea {
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+  text-align: center;
+}
+
+form button:hover {}
